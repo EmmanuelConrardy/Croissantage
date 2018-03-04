@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Croissantage.Tests", "..\Cr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CroissantageSpecs", "..\CroissantageSpecs\CroissantageSpecs.csproj", "{CD1D6BDC-F2AF-4D1E-B249-1C6AE945C530}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8ED969ED-78CA-4ED0-8397-2FFA8B0FF5E3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{72F0EA67-6007-4FEC-8D2B-FB7B68EE6B35}"
 	ProjectSection(SolutionItems) = preProject
-		..\.gitignore = ..\.gitignore
+		.gitignore = .gitignore
 	EndProjectSection
 EndProject
 Global
