@@ -6,6 +6,7 @@
         Printer,
         Coffee,
         SecondFloor,
+        Portugal
         //teletravail
     }
 }

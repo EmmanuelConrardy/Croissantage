@@ -5,10 +5,11 @@
 
 Background:
     Given Small red team
-    | Employe  | Place     |
-    | Cecile   | OpenSpace |
-    | Emmanuel | OpenSpace |
-	| Baptiste | SecondFloor |
+    | Employe  | Place       |
+    | Cecile   | OpenSpace   |
+    | Emmanuel | OpenSpace   |
+    | Baptiste | SecondFloor |
+    | Bruno    | Portugal    |
 
 
 
@@ -46,3 +47,9 @@ Scenario: Croissanted Baptiste
 	And Session of Baptiste is Open
 	When Employes try to croissant each others
 	Then Baptiste should be croissanted
+
+Scenario: Croissanted Brono télétravail
+	Given An Employe Bruno at the Portugal
+	And Session of Bruno is Open
+	When Employes try to croissant each others
+	Then Bruno should not be croissanted
